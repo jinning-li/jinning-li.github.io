@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jinning Li</title>
-    <link>https://jinning-li.github.io/</link>
-      <atom:link href="https://jinning-li.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jinning Li</description>
+    <title>Publications | Jinning Li</title>
+    <link>https://jinning-li.github.io/publication/</link>
+      <atom:link href="https://jinning-li.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jinning-li.github.io/media/icon_hu6e52c84df76e80759d852857e794a089_2127808_512x512_fill_lanczos_center_3.png</url>
-      <title>Jinning Li</title>
-      <link>https://jinning-li.github.io/</link>
+      <title>Publications</title>
+      <link>https://jinning-li.github.io/publication/</link>
     </image>
     
     <item>
@@ -163,14 +163,6 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jinning-li.github.io/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jinning-li.github.io/admin/config.yml</guid>
-      <description></description>
     </item>
     
   </channel>
