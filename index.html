@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: August 18, 2023 --><html lang="en-us" >
+<!-- Last Published: October 26, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -327,7 +327,7 @@
 <meta property="og:description" content="PhD Candidate" /><meta property="og:image" content="https://jinning-li.github.io/media/icon_hu6e52c84df76e80759d852857e794a089_2127808_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2022-02-25T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-10-26T00:00:00&#43;00:00" />
   
 
 
@@ -831,23 +831,6 @@
           
         
         <li>
-          <a href="https://github.com/jinning-li" target="_blank" rel="noopener" aria-label="github">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
           <a href="https://www.linkedin.com/in/jinningli/" target="_blank" rel="noopener" aria-label="linkedin">
             <i class="fab fa-linkedin big-icon"></i>
           </a>
@@ -870,7 +853,7 @@ Previously, I received my Bachelor of Engineering from Harbin Institute of Tehcn
 <p>
   <i class="fas fa-download  pr-1 fa-fw"></i> Download my 
 
-<a href="/uploads/cv_brief_jinningli.pdf" target="_blank">resumé</a>
+<a href="/uploads/cv_jinningli.pdf" target="_blank">resumé</a>
 .</p>
 
     </div>
@@ -1078,9 +1061,9 @@ Previously, I received my Bachelor of Engineering from Harbin Institute of Tehcn
           
 
           <div class="card-text"><ul>
-<li>Design computational model for human drivers, incorporating the behavior prediction of traffic agents</li>
-<li>Model the multi-modal interaction in dynamic scenes where agent needs to respond to their surroundings</li>
-<li>Develop interaction models using probabilistic models and optimize the agent behavior by reinforcement learning, behavior cloning, and model predictive control algorithms</li>
+<li>Designed algorithms to improve safe generalization of prediction models, incorporating behavior planning modules of the vehicles</li>
+<li>Captured invariant information between different traffic scenes across partitions of training datasets by unsupervised learning</li>
+<li>Evaluated the proposed algorithm on large-scale datasets, e.g., Waymo Open Motion Dataset &amp; Argoverse 2 Dataset, which are preprocessed and unified to the same format</li>
 </ul>
 </div>
         </div>
@@ -1180,9 +1163,10 @@ Previously, I received my Bachelor of Engineering from Harbin Institute of Tehcn
 
           <div class="card-text"><ul>
 <li>Designed and built a JAX-ONNX backend library: Jaxonnxruntime. Github: <a href="https://github.com/google/jaxonnxruntime" target="_blank" rel="noopener">https://github.com/google/jaxonnxruntime</a></li>
-<li>Passed more than 700 unit tests from both ONNX backend test suites and customized scenarios including large language models</li>
-<li>Transformed the original Pytorch LLaMA model to JAX; Exported and served the transformed models by the JAX ecosystem</li>
-<li>Benchmarked the inference performance of the JAX models with different partition rules on GPUs and TPUs</li>
+<li>Passed more than 700 unit tests in both ONNX backend test suites and customized scenarios including Large Language Models</li>
+<li>Transformed the original Pytorch LLaMA model to JAX</li>
+<li>Exported and served the transformed models by the JAX ecosystem on Google Cloud internal server platforms</li>
+<li>Benchmarked the inference of JAX Transformers on model servers with different parallel partition rules on GPUs and TPUs</li>
 <li>Customized the library based on the needs of users at Google</li>
 </ul>
 </div>
@@ -1232,7 +1216,7 @@ Previously, I received my Bachelor of Engineering from Harbin Institute of Tehcn
           
 
           <div class="card-text"><ul>
-<li>Designed and built an offline reinforcement learning infrastructure under Tensorflow</li>
+<li>Designed and built an offline reinforcement learning infrastructure under Tensorflow for discover ads auction</li>
 <li>Trained deep NNs to optimize auction long term values from real-world data to achieve better advertiser/user value trade-off</li>
 <li>Conducted A/B testing of the trained algorithm on production traffic and polished the models accordingly</li>
 </ul>
@@ -1351,6 +1335,43 @@ Previously, I received my Bachelor of Engineering from Harbin Institute of Tehcn
   
   
     <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Trustworthy Reinforcement Learning Algorithms for Real-World Application</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.berkeley.edu" target="_blank" rel="noopener">UC Berkeley</a><span class="middot-divider"></span>
+
+              Jan 2023
+              
+              – Oct 2023
+              
+            </div>
+
+        
+          <div class="card-text"><ul>
+<li>
+<p>Designed a guided online distillation algorithm <a href="https://sites.google.com/view/guided-online-distillation" target="_blank" rel="noopener">(website)</a> for <em>safe reinforcement learning (RL)</em>: extracted skills from human demonstrations by <em>Decision Transformer</em>, and distilled them into a lightweight network in <em>online interactive funetuning for safety enhancement</em></p>
+</li>
+<li>
+<p>Proposed a metric to quantify the <em>interaction intensity for multi agent RL</em>, which guides resource allocation for training diverse policies under a constraint budget</p>
+</li>
+<li>
+<p>Develop <em>a generative model (Diffusion)</em> based simulator producing human like interactions, which can be trained concurrently and accept feedback from planning modules for better sample efficiency and final performance on safety</p>
+</li>
+</ul>
+<p>Resulting Publications:</p>
+<ul>
+<li>
+<p>J. Li et al., &lsquo;&rsquo;<a href="https://arxiv.org/abs/2309.09408" target="_blank" rel="noopener">Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration</a>,&rsquo;&rsquo; in <em>arXiv:2309.09408 (Submitted to ICRA 2024)</em>, 2023.</p>
+</li>
+<li>
+<p>Y. Chen, C. Tang, R. Tian, C. Li, J.Li et al., &lsquo;&rsquo;<a href="https://arxiv.org/abs/2310.07218" target="_blank" rel="noopener">Quantifying Agent Interaction in Multi-agent Reinforcement Learning for Cost-efficient Generalization</a>,&rsquo;&rsquo; in <em>arXiv preprint arXiv:2310.07218</em>, 2023.</p>
+</li>
+</ul>
+</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
       <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Machine Learning Framework and Algorithms Design for Decision Making</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.berkeley.edu" target="_blank" rel="noopener">UC Berkeley</a><span class="middot-divider"></span>
 
               Sep 2020
@@ -1428,12 +1449,16 @@ achieved both high completion rate of around and low collision rate</p>
 </ul>
 <p>Resulting Publications:</p>
 <ul>
-<li>J. Li et al., &lsquo;&rsquo;<a href="publication/a-safe-hierarchical/">A Safe Hierarchical Planning Framework for Complex Driving Scenarios
+<li>
+<p>J. Li et al., &lsquo;&rsquo;<a href="publication/a-safe-hierarchical/">A Safe Hierarchical Planning Framework for Complex Driving Scenarios
 based on Reinforcement Learning</a>,&rsquo;&rsquo; in <em>2021 IEEE
-Conference on Robotics and Automation (ICRA)</em>, 2021.</li>
-<li>J. Li et al., &lsquo;&rsquo;<a href="publication/interaction-aware/">Interaction-aware behavior planning for autonomous vehicles validated
+Conference on Robotics and Automation (ICRA)</em>, 2021.</p>
+</li>
+<li>
+<p>J. Li et al., &lsquo;&rsquo;<a href="publication/interaction-aware/">Interaction-aware behavior planning for autonomous vehicles validated
 with real traffic data</a>,&rsquo;&rsquo; in <em>Dynamic Systems and Control
-Conference (DSCC). American Society of Mechanical Engineers</em>, 2020.</li>
+Conference (DSCC). American Society of Mechanical Engineers</em>, 2020.</p>
+</li>
 </ul>
 </div>
         
@@ -1629,6 +1654,148 @@ that KPCA and GA both boost the performance of the SVM</p>
 </div>
  -->
 
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Jinning Li</span>, <span >
+      Xinyi Liu</span>, <span >
+      Banghua Zhu</span>, <span >
+      Jiantao Jiao</span>, <span >
+      Masayoshi Tomizuka</span>, <span >
+      Chen Tang</span>, <span >
+      Wei Zhan</span>
+  </span>
+  (2023).
+  <a href="/publication/guided-online-distillation/">Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration</a>.
+  In <em>arXiv preprint arXiv:2309.09408</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2309.09408" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/guided-online-distillation/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Yuxin Chen</span>, <span >
+      Chen Tang</span>, <span >
+      Ran Tian</span>, <span >
+      Chenran Li</span>, <span class="author-highlighted">
+      Jinning Li</span>, <span >
+      Masayoshi Tomizuka</span>, <span >
+      Wei Zhan</span>
+  </span>
+  (2023).
+  <a href="/publication/quatifying-agent-interaction/">Quantifying Agent Interaction in Multi-agent Reinforcement Learning for Cost-efficient Generalization</a>.
+  In <em>arXiv preprint arXiv:2310.07218</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2310.07218" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/quatifying-agent-interaction/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
 
   
     
