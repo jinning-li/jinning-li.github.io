@@ -2,32 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jinning-li.github.io/publication-type/3/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://jinning-li.github.io/publication-type/2/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jinning-li.github.io/publication/guided-online-distillation/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://jinning-li.github.io/publication/adaptive-prediction-ensemble/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jinning-li.github.io/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jinning-li.github.io/publication_types/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jinning-li.github.io/publication/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jinning-li.github.io/publication-type/1/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jinning-li.github.io/publication/guided-online-distillation/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jinning-li.github.io/publication-type/3/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jinning-li.github.io/publication/quatifying-agent-interaction/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jinning-li.github.io/publication-type/1/</loc>
-    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jinning-li.github.io/publication/hierarchical-rl/</loc>
@@ -36,10 +44,6 @@
   </url><url>
     <loc>https://jinning-li.github.io/publication/dealing-with-unknown/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jinning-li.github.io/publication-type/2/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jinning-li.github.io/publication/spatio-temporal-graph/</loc>

@@ -5,7 +5,7 @@
     <link>https://jinning-li.github.io/</link>
       <atom:link href="https://jinning-li.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinning Li</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jinning-li.github.io/media/icon_hu6e52c84df76e80759d852857e794a089_2127808_512x512_fill_lanczos_center_3.png</url>
       <title>Jinning Li</title>
@@ -13,9 +13,27 @@
     </image>
     
     <item>
+      <title>Adaptive prediction ensemble: Improving out-of-distribution generalization of motion forecasting</title>
+      <link>https://jinning-li.github.io/publication/adaptive-prediction-ensemble/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jinning-li.github.io/publication/adaptive-prediction-ensemble/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration</title>
       <link>https://jinning-li.github.io/publication/guided-online-distillation/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       <guid>https://jinning-li.github.io/publication/guided-online-distillation/</guid>
       <description>&lt;!-- 
 
